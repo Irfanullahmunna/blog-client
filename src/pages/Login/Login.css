@@ -1,0 +1,52 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ), url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+    background-size: cover;
+}
+.login-tittle {
+    font-size: 50px;
+}
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form > label {
+    margin: 10px 0;
+}
+.login-input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.login-button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.login-button:disabled {
+    cursor: not-allowed;
+    background-color: rgb(240, 133, 94);
+}
+.login-register-button {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
